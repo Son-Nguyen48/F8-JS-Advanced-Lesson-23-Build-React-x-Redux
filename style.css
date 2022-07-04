@@ -20,7 +20,7 @@ body {
 #root {
   text-align: center;
   max-width: 90rem;
-  margin: 0 auto;
+  margin: 5rem auto;
   padding: 2rem;
   border: 0.2rem solid #333;
   border-radius: 0.6rem;
@@ -34,6 +34,12 @@ body {
 
 li {
   padding: 2rem;
+}
+
+input {
+  padding: 0.6rem;
+  border: 0.2rem solid #333;
+  border-radius: 0.6rem;
 }
 
 button {

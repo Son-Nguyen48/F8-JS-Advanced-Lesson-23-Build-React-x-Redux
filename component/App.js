@@ -12,8 +12,8 @@ function App(props) {
     <ul class="menu">
       ${props.cars.map((car) => `<li>${car}</li>`)}
     </ul>
-
-    <button onclick="dispatch('ADD', 'PORSCHE')">Add Car</button>
+    <input type="text" placeholder="Enter the car name" id="input" />
+    <button onclick="dispatch('ADD', '')">Add Car</button>
   `;
 }
 
