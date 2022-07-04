@@ -10,11 +10,11 @@ export default function reducer(state = init, action, ...args) {
       console.log(inputValue);
       args = inputValue;
       console.log(args);
-      const [...newCar] = args;
+      const newCar = args;
       console.log(newCar);
       return {
         ...state,
-        cars: [...state.cars, newCar.join("")]
+        cars: [...state.cars, newCar]
       };
     default:
       return state;
