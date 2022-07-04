@@ -9,7 +9,7 @@ const connector = connect((state) => ({
 function App(props) {
   console.log(props);
   return html`
-    <ul>
+    <ul class="menu">
       ${props.cars.map((car) => `<li>${car}</li>`)}
     </ul>
 

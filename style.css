@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: bisque;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#root {
+  text-align: center;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 0.2rem solid #333;
+  border-radius: 0.6rem;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 0.6rem;
+}
+
+button:hover,
+button:active {
+  transform: scale(0.98);
+  cursor: pointer;
+}
